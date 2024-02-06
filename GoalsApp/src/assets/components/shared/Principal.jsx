@@ -1,4 +1,4 @@
-function Principal({children}) {
+function Principal({ children }) {
     return (
         <>
             <sidenav>
