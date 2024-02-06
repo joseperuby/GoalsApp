@@ -1,0 +1,23 @@
+.header {
+    @apply h-xl flex justify-between shadow bg-white text-gray-700;
+}
+
+.logo {
+    @apply flex pl-4 items-center;
+ }
+
+.app {
+    @apply text-lg font-semibold text-gray-900 uppercase;
+}
+
+.logo-img {
+    @apply size-10 mr-3;
+}
+
+.nav-profile {
+    @apply flex items-center px-4 h-xl hover:bg-gray-200;
+}
+
+.profile-img {
+    @apply size-8;
+}
