@@ -10,7 +10,8 @@ export default {
         sm: '8px',
         md: '16px',
         lg: '32px',
-        xl: '48px'
+        xl: '48px',
+        main: '64px'
       },
     },
   },
