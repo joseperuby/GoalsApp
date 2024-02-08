@@ -1,10 +1,10 @@
-import goals from '../img/objetivo.png'
-import profile from '../img/usuario.png'
-import './Header.css'
+import goals from '../img/objetivo.png';
+import profile from '../img/usuario.png';
+import './Header.css';
 
 function Header() {
     return (
-        <div className="header">
+        <header className="header">
             <div className="logo">
                 <img className="logo-img" src={goals} alt="objetivo" />
                 <a className="app" href="/">Goals App</a>
@@ -14,8 +14,8 @@ function Header() {
                     <img className="profile-img" src={profile} alt="profile" />
                 </a>
             </nav>
-        </div>
-    )
+        </header>
+    );
 }
 
 export default Header;
