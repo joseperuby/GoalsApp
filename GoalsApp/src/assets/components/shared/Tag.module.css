@@ -1,0 +1,11 @@
+.listImg {
+    @apply size-8
+}
+
+.addImg {
+    @apply size-8
+}
+
+.navProfile {
+    @apply flex items-center px-4 h-xl hover:bg-gray-200;
+}
