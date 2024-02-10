@@ -19,5 +19,5 @@
 }
 
 .boton--gris {
-
+    @apply nm-flat-gray-100 hover:bg-gray-200;
 }
